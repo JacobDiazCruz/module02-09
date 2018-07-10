@@ -1,0 +1,221 @@
+ body {
+ margin: 0 auto;
+ background-image: url("../images/sea.jpg");
+ background-repeat: no-repeat;
+ background-size: 100% 1000px;
+ font-family: 'Oswald', sans-serif;
+ opacity: 1;
+}
+
+nav {
+	width: 100%;
+	height: 90px;
+	background-color: white;
+	opacity: 1;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+}
+
+.space {
+	background-image: url("../images/glogo.jpg");
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 90px;
+	float: left;
+	font-family: 'Oswald', sans-serif;
+}
+.home {
+	margin-left: 200px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.home, .men, .women {
+	width: 10%;
+	height: 90px;
+	margin-top: 40px;
+/*
+	padding: 15px;
+	font-size: 16px;*/
+	float: left;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.container{
+ width: 500px;
+ height: 450px;
+ text-align: center;
+ margin: 0 auto;
+ border-radius: 04px;
+ background-color: rgba(44, 62, 80,0.7);
+ margin-top: 160px;
+}
+ 
+ .dot {
+ 	background-image: url("../images/gmail2.jpg");
+ 	background-repeat: no-repeat;
+ 	margin-top: -60px;
+ 	height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+ }
+.container img{
+ 
+ background-image: url("../images/google.jpg");
+ background-repeat: no-repeat;
+ width: 100px;
+ height: 100px;
+ margin-top: -60px;
+ margin-right: 30px;
+ text-align: center;
+ border-radius: 20px;
+ border-top-left-radius: 20px;
+ 
+}
+ 
+input[type="text"],input[type="password"]{
+ margin-top: 30px;
+ height: 45px;
+ width: 300px;
+ font-size: 18px;
+ margin-bottom: 20px;
+ background-color: #fff;
+ padding-left: 40px;
+}
+ 
+.form-input::before{
+ content: "\f007";
+ font-family: "FontAwesome";
+ padding-left: 07px;
+ padding-top: 40px;
+ position: absolute;
+ font-size: 35px;
+ color: #2980b9; 
+}
+ 
+.form-input:nth-child(2)::before{
+ content: "\f023";
+}
+ 
+.btn-login{
+ padding: 15px 25px;
+ border: none;
+ background-color: #27ae60;
+ color: #fff;
+}
+
+footer {
+	padding: 30px;
+	margin-right: 100px;
+	margin-top: 200px;
+
+}
+
+h2 {
+	color: white;
+	margin-top: 100px;
+
+}
+
+.pic1, .pic2, .pic3, .pic4 {
+	padding: 10px;
+	margin-top: 100px;
+}
+
+#user {
+
+}
+
+.pic1 {
+	background-image: url("../images/fbcircle.jpg");
+ 	background-repeat: no-repeat;
+ 	margin-top: -60px;
+ 	height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 25px;
+
+}
+
+
+.pic2 {
+	background-image: url("../images/twitlogo2.jpg");
+ 	background-repeat: no-repeat;
+ 	margin-top: -60px;
+ 	margin-left: 10px;
+ 	height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.pic3 {
+	margin-top: -10px;
+	background-image: url("../images/instalogo1.jpg");
+ 	background-repeat: no-repeat;
+ 	margin-top: -60px;
+ 	margin-left: 10px;
+ 	height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 25px;
+
+}
+
+.pic4 {
+	margin-top: -10px;
+	background-image: url("../images/youtubelogo.jpg");
+ 	background-repeat: no-repeat;
+ 	margin-top: -60px;
+ 	margin-left: 10px;
+ 	height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 25px;
+
+}
+
+
+.end1 {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+
+ .end2 {
+	color: black;
+	padding-right: 50px;
+}
+
+.add {
+	background-image: url("../images/fb.jpg");
+	height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-right: 1000px;
+    margin-left: 120px;
+    margin-bottom: -150px;
+
+ }
+
+ #lastp {
+ 	margin-top: 100px;
+ 	font-family: 'Poppins', sans-serif;
+ 	text-align: center;
+
+ }
+
+
+
+
+
+
